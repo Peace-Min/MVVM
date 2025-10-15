@@ -17,7 +17,7 @@ namespace MVVM.ViewModels
         [RelayCommand]
         private void 화면이동(object obj)
         {
-            Shell.Current.GoToAsync(nameof(NewPage1));
+            Shell.Current.GoToAsync($"{nameof(NewPage2)}?query={Text}");
         }
     }
 }

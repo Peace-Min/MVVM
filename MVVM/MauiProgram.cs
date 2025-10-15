@@ -20,6 +20,7 @@ namespace MVVM
             builder.Services.AddSingleton<NewViewModel2>();
             builder.Services.AddSingleton<NewPage1>();
             builder.Services.AddSingleton<NewPage2>();
+            builder.Services.AddSingleton<NewPage2ViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();
