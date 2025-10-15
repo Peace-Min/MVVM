@@ -6,12 +6,13 @@
              xmlns:viewModel="clr-namespace:MVVM.ViewModels"
              x:DataType="viewModel:NewViewModel2"
              >
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="10">
         <Label 
             Text="{Binding Text}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Entry Text="{Binding Text}"/>
         <Button Text="화면이동" Command="{Binding 화면이동Command}"/>
+        <Button Text="데이터전달하기" Command="{Binding 데이터전달하기Command}"/>
     </VerticalStackLayout>
 </ContentPage>

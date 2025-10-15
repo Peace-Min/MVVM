@@ -18,9 +18,12 @@ namespace MVVM
                 });
             builder.Services.AddSingleton<NewViewModel>();
             builder.Services.AddSingleton<NewViewModel2>();
+            builder.Services.AddSingleton<NewPage2ViewModel>();
+            builder.Services.AddSingleton<NewPage3ViewModel>();
             builder.Services.AddSingleton<NewPage1>();
             builder.Services.AddSingleton<NewPage2>();
-            builder.Services.AddSingleton<NewPage2ViewModel>();
+            builder.Services.AddSingleton<NewPage3>();
+            
 
 #if DEBUG
             builder.Logging.AddDebug();
