@@ -17,6 +17,7 @@ namespace MVVM
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
             builder.Services.AddSingleton<NewViewModel>();
+            builder.Services.AddSingleton<NewViewModel2>();
             builder.Services.AddSingleton<NewPage1>();
             builder.Services.AddSingleton<NewPage2>();
 

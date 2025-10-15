@@ -4,14 +4,14 @@
              x:Class="MVVM.Views.NewPage1"
              Title="NewPage1" 
              xmlns:viewModel="clr-namespace:MVVM.ViewModels"
-             x:DataType="viewModel:NewViewModel"
+             x:DataType="viewModel:NewViewModel2"
              >
     <VerticalStackLayout>
         <Label 
-            Text="{Binding 텍스트}"
+            Text="{Binding Text}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Entry Text="{Binding 텍스트}"/>
-        <Button Text="화면이동" Command="{Binding 화면이동Cmd}"/>
+        <Entry Text="{Binding Text}"/>
+        <Button Text="화면이동" Command="{Binding 화면이동Command}"/>
     </VerticalStackLayout>
 </ContentPage>
