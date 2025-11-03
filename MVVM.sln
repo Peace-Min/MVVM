@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{7B9CA51C-D97C-447C-BD1D-B579C6AE97FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encyc", "Encyc\Encyc.csproj", "{64B7E2E9-E468-4D8F-BE0E-6D78C01064A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,10 @@ Global
 		{7B9CA51C-D97C-447C-BD1D-B579C6AE97FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{7B9CA51C-D97C-447C-BD1D-B579C6AE97FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9CA51C-D97C-447C-BD1D-B579C6AE97FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B7E2E9-E468-4D8F-BE0E-6D78C01064A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B7E2E9-E468-4D8F-BE0E-6D78C01064A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B7E2E9-E468-4D8F-BE0E-6D78C01064A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B7E2E9-E468-4D8F-BE0E-6D78C01064A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
